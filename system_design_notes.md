@@ -1,7 +1,7 @@
 System design Topics:
 
 
-1. Horizontal Vs Vertical Scaling
+1. **Horizontal Vs Vertical Scaling**
 
 ```
     Horizontal                  Vertical
@@ -18,7 +18,7 @@ Ref: https://www.youtube.com/watch?v=xpDnVSmNFX0
 ```
 
 
-2.  CAP Theorem
+2.  **CAP Theorem**
 
 ```
 C: Consistency
@@ -46,7 +46,7 @@ AP:
 ```
 
 
-3. ACID Properties  of database
+3. **ACID Properties  of database**
 
 
 ```
@@ -68,7 +68,7 @@ https://www.youtube.com/watch?v=Z57b-1HLSU8
 ```
 
 
-4. Partitioning/Sharding Data
+4. **Partitioning/Sharding Data**
 
 
 Partitioning: Splitting a table based on the row on a single machine.
@@ -106,11 +106,11 @@ References:
     - https://www.youtube.com/watch?v=K12oQCzjPxE
 
 
-5. Consistent Hashing
+5. **Consistent Hashing**
 
-6. Optimistic vs Pessemistic Locking
+6. **Optimistic vs Pessemistic Locking**
 
-7. Strong vs Eventual Consistency
+7. **Strong vs Eventual Consistency**
 
 Strong Consistency: All reads should always get the latest data writen in the database
 Eg: Any payment gateway, stock exchange
@@ -127,7 +127,7 @@ DB: NoSQL Database
 This provides higher Availability.
 
 
-8. Relational DB vs NoSQL DB
+8. **Relational DB vs NoSQL DB**
 
 
 References:
@@ -227,13 +227,16 @@ documented access language. (SQL)
 
 ```
 
-Caching:
+9. **Caching**
 
-Types of caching:
-    1. File based
-    2. Memory based
-    3. DB Based
+    ```
+    Types of caching:
+        1. File based
+        2. Memory based
+        3. DB Based
 
 
-Redis is preferred more for caching. 
+    Redis is preferred more for caching. 
+    
+    ```
 
