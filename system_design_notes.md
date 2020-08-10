@@ -70,7 +70,7 @@ https://www.youtube.com/watch?v=Z57b-1HLSU8
 
 4. **Partitioning/Sharding Data**
 
-
+```
 Partitioning: Splitting a table based on the row on a single machine.
     Eg: Splitting a user table using ids or their first name or locations etc.
 
@@ -104,14 +104,14 @@ References:
     - https://stackoverflow.com/questions/18302773/what-are-horizontal-and-vertical-partitions-in-database-and-what-is-the-differen
     - https://medium.com/@jeeyoungk/how-sharding-works-b4dec46b3f6
     - https://www.youtube.com/watch?v=K12oQCzjPxE
-
+```
 
 5. **Consistent Hashing**
 
 6. **Optimistic vs Pessemistic Locking**
 
 7. **Strong vs Eventual Consistency**
-
+```
 Strong Consistency: All reads should always get the latest data writen in the database
 Eg: Any payment gateway, stock exchange
 
@@ -125,18 +125,17 @@ DB: NoSQL Database
 
 
 This provides higher Availability.
-
+```
 
 8. **Relational DB vs NoSQL DB**
 
 
 References:
-    1. https://www.youtube.com/watch?v=ZS_kXvOeQ5Y
-    2. https://www.youtube.com/watch?v=ruz-vK8IesE
-    3. https://www.youtube.com/watch?v=xQnIN9bW0og
+    - https://www.youtube.com/watch?v=ZS_kXvOeQ5Y
+    - https://www.youtube.com/watch?v=ruz-vK8IesE
+    - https://www.youtube.com/watch?v=xQnIN9bW0og
 
 ```
-
 
 Relational DB:
 
